@@ -35,11 +35,11 @@ const [destino, setdestino] = useState();
             </div>
             <div class="mb-3">
               <label htmlFor="cartao" class="form-label">Cartão de crédito</label>
-              <input type="email" class="form-control" id="cartao" placeholder="Número do seu cartão"/>
+              <input type="text" class="form-control" id="cartao" placeholder="Número do seu cartão"/>
             </div>
             <div class="mb-3">
               <label htmlFor="telefone" class="form-label">Telefone</label>
-              <input type="email" class="form-control" id="telefone" placeholder="Número do seu celular"/>
+              <input type="text" class="form-control" id="telefone" placeholder="Número do seu celular"/>
             </div>
             <div class="mb-3">
               <label htmlFor="email" class="form-label">Email</label>
@@ -47,7 +47,7 @@ const [destino, setdestino] = useState();
             </div>
             <div class="mb-3">
               <label htmlFor="destino" class="form-label">Destino</label>
-              <input type="email" class="form-control" id="destino" placeholder="Qual local de destino"/>
+              <input type="text" class="form-control" id="destino" placeholder="Qual local de destino"/>
             </div>
             <div className="action">
               <button type="submit" className='btn'>Enviar</button>
