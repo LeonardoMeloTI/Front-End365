@@ -1,0 +1,17 @@
+footer {
+  justify-content: center;
+  padding: 2rem 0 2rem 0;
+  border-top: 2px solid rgba(8, 8, 8, 0.322);
+}
+
+.font-config {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  text-align: center;
+}
+
+.cartoes {
+  margin-top:20px;
+  width: 480px;
+  height:120px;
+}
+

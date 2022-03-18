@@ -1,0 +1,9 @@
+
+.carousel {
+  height: 60vh;
+  box-shadow: 0px 0px 5px 0px #8b8686;
+}
+
+.carousel img{
+  height: 63vh;
+}

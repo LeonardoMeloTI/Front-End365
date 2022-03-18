@@ -1,0 +1,12 @@
+
+.font-config {
+  color:rgb(109, 109, 168);
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.tela-promocao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

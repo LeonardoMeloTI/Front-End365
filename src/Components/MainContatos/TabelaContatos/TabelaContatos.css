@@ -1,0 +1,87 @@
+.th{
+  width:200px;
+}
+
+.wall{
+  margin-bottom:20px;
+  width:300px;
+  margin-top:80px;
+  margin-left:1px;
+  display: flex;
+}
+
+.tabela-cadastro {
+  background-color: #495073;
+  box-shadow: 0px 0px 6px 2px rgb(11, 25, 85);
+  width:100%;
+  
+}
+
+.tabela-cadastro a {
+  width: 30%;
+}
+
+.btn-cadastro {
+  text-decoration: none;
+  background: #010440;
+  color: #f2f0d8;
+  font-weight: normal;
+  border-radius: 10px;
+  margin-bottom: 3px;   
+}
+
+.btn-cadastro:hover {
+  color: #F2EB85;
+  background: #0A0E59;
+}
+
+.btn-cadastro-delete {
+  text-decoration: none;
+  color: #f2f0d8;
+  font-weight: normal;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.btn-cadastro-delete:hover {
+  color: #F2EB85;
+}
+
+#section-form {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom:30px;
+}
+.form {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 1180px){
+  .tabela-cadastro a {
+      display:block;
+      width: 90%;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .tabela-cadastro a {
+      font-size:12px;
+      
+  }
+}
+
+@media screen and (max-width: 600px){
+    #section-form {
+        min-height: 100vh;
+    }
+    .form {
+        max-width: 100%;
+    }  
+}
+
