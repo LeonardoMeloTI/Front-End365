@@ -76,8 +76,8 @@ const [destino, setdestino] = useState();
       </div>
           <div className="wall">
                   <a className="btn btn-cadastro" role="button" href="#">Editar</a>
-                  <a className="btn btn-cadastro" role="button" href="#">Detalhes</a>
-                  <a className="btn btn-cadastro" role="button" href="#">Apagar</a>
+                  <a className="btn btn-cadastro" role="button" href="#">Visualizar</a>
+                  <a className="btn btn-cadastro" role="button" href="#">Deletar</a>
           </div>
     </div>
     </>
